@@ -17,8 +17,7 @@
 
 + **weakness**:
 ## UI/UX Review 
-+ There seems to be a protocol error for signing up/Signing in  as shwon below: 
-![Sign in Error](./error_1.png), this is confusing to the USER, should improve error message handling. (Also I see database password and username in code, should be in ENV) -- Note that mysql is outdated, mysql2 should be used. 
++ There seems to be a protocol error for signing up/Signing in as shown in error1.png. As shown, that is confusing to the USER. We should improve error message handling. (Also I see database password and username in code, should be in ENV) -- Note that mysql is outdated, mysql2 should be used. 
 + there is also a lot of errors with the current code, for instance I can't sign in or sign up, the protocol is wrong, I had to change to MySql2 for it to recieve requests. 
 + The Db4Free.net login seems to be incorrect, I couldn't sign in to view all the tables. 
 + **Strengths**: 
